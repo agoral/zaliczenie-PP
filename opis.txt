@@ -1,1 +1,9 @@
 Wykona³am program na podstawie kodu Game of Life autorstwa Jose Sancheza (ale nie skopiowa³am jego ostatecznej wersji, tylko pisa³am etapami zgodnie ze wskazówkami tutariala). PoŸniej dokona³am przekszta³ceñ wyjœciowego projektu, stara³am siê jak najbardziej uproœciæ i skróciæ kod. Eksperymentowa³am z wartoœciami zmiennych, a¿ do uzyskania zadowalaj¹cego efektu. Dwuwymiarow¹ siatkê uzupe³ni³am o trzeci wymiar, a tak¿e doda³am fragment kodu, który odpowiada za zmiany kolorów. Rozszerzy³am te¿ kod o funkcjê obracania obiektu, oddalania i przybli¿ania widoku, tak samo jak szybkoœæ reakcji na ruch wskaŸnika. Skupi³am siê g³ównie na wizualnym aspekcie obiektu.
+
+Aby kod dzia³a³ musia³am dodaæ zewnêtrzne biblioteki: PeasyCam oraz Toxi Clibs.
+
+PeasyCam potrzebna jest do tworzenia w œrodowisku 3D, w którym zaprojektowa³am trójwymiarow¹ siatkê o zmiennych cols, rows i rows 2. Natomiast z Toxi Clibs interesowa³a mnie czêœc "geom" odpowiedzialna za obs³ugê wektorów.
+
+Stworzy³am klasê, w której okreœli³am zachowanie ("¿ycie"/"œmieræ"/"narodziny") elementów w zale¿noœci od iloœci aktywnych s¹siadów oraz ustali³am, iloœæ tych elementów jak i ich uk³ad. Na koniec inicjowa³am kod.
+
+Stworzy³am okno, w którym u¿y³am napisanej wczeœniej klasy, któr¹ zorganizowa³am w siatkê, która stworzy³a kszta³t szeœcianu. Ustali³am w³aœciwoœci okna, a tak¿e funkcje i zachowanie wskaŸnika myszy. Komend¹ draw inicjowa³am kod i proces aktualizacji punktów, który, gdy dzia³a, daje wra¿enie animacji.
